@@ -30,6 +30,7 @@
 		00E356EE1AD99517003FC87E /* AccubitAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AccubitAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* AccubitAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AccubitAppTests.m; sourceTree = "<group>"; };
+		01DC242327116BF00035EF9C /* Entypo.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Entypo.ttf; path = "../../node_modules/react-native-vector-icons/Fonts/Entypo.ttf"; sourceTree = "<group>"; };
 		0EE016FF0A00A0F39D0D0C36 /* Pods-AccubitApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AccubitApp.release.xcconfig"; path = "Target Support Files/Pods-AccubitApp/Pods-AccubitApp.release.xcconfig"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* AccubitApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AccubitApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = AccubitApp/AppDelegate.h; sourceTree = "<group>"; };
@@ -83,6 +84,14 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		01DC242227116B280035EF9C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				01DC242327116BF00035EF9C /* Entypo.ttf */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		13B07FAE1A68108700A75B9A /* AccubitApp */ = {
 			isa = PBXGroup;
 			children = (
@@ -104,7 +113,6 @@
 				F542E2BB6FE5EA484F255F17 /* Pods-AccubitApp-AccubitAppTests.debug.xcconfig */,
 				465A55630402BECF4858436B /* Pods-AccubitApp-AccubitAppTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -128,6 +136,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				01DC242227116B280035EF9C /* Resources */,
 				13B07FAE1A68108700A75B9A /* AccubitApp */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* AccubitAppTests */,
